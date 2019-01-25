@@ -1,7 +1,7 @@
 # aboutme
 
 ## Repository Links
-- [webpage](https://sunilmundru.github.io/aboutme/](https://sunilmundru.github.io/aboutme/)
+- [webpage](https://sunilmundru.github.io/aboutme/)
 - [Source](https://github.com/sunilmundru/aboutme/edit/master/README.md)
 
 ## About
