@@ -1,8 +1,8 @@
 # aboutme
 
 ## Repository Links
-- [webpage](https://sunilmundru.github.io/aboutme/)
-- [Source](https://github.com/sunilmundru/aboutme/edit/master/README.md)
+- [webpage](https://github.com/sunilmundru/aboutme/edit/master/README.md)
+- [Source](https://sunilmundru.github.io/aboutme/)
 
 ## About
 This repository is helps to improve my programming skills with widely available Git hub pages
