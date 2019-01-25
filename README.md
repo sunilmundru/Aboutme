@@ -7,8 +7,9 @@
 ## About
 This repository is helps to improve my programming skills with widely available Git hub pages
 
-##Recommended Tools
+## Recommended Tools
 - [HTML](https://www.w3schools.com/html/html_editors.asp)
+the tool
 - [Github](https://desktop.github.com/)
 - [Bitbucket](https://bitbucket.org/dashboard/overview)
 
