@@ -25,4 +25,4 @@ This repository is helps to improve my programming skills with widely available 
 My name is Sunil mundru. Iam student  at Northwest Missouri State University.
 
 
-! [image](https://msep.mhec.org/sites/default/files/N-2Stack-Full2.jpg)
+![image](https://msep.mhec.org/sites/default/files/N-2Stack-Full2.jpg)
