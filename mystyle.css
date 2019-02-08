@@ -1,0 +1,112 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+
+h1 {
+    border-style : solid;
+    padding-top : 1em;
+    padding-bottom : 1em;
+    padding-left: 1em;
+    background-color : brown;
+    color : white;
+
+}
+
+h2{
+    color:rgb(77, 117, 153); 
+}
+
+section{
+    margin:1rem;
+    padding:2rem;
+    background-color: coral;
+    border-style: groove;
+    border-radius: 0em;
+    border-color: aliceblue
+    
+
+}
+
+aside{
+    margin:1rem;
+    padding:2rem;
+    border-style: hidden;
+    border-radius: 0em;    
+    background-color: darkkhaki;   
+}
+
+/*class*/
+.important{
+    color: firebrick;
+}
+
+.video{
+    margin: 1rem;
+    margin-right: 2rem;
+}
+
+.icon{
+    width:1rem;
+    height: auto;
+}
+
+/* css from table generator*/
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin:auto;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top
+}
+/* end of css from table generator*/
+
+#picture{
+    width: 11rem;
+    height: auto;
+    margin: 1rem;
+    align-content: center;
+}
+
+#small-picture{
+    width: 24rem;
+    height: auto;
+    margin: 1rem;
+    align-content: center;
+}
+
+
+#myname{
+    color: aqua;
+}
+.foot {
+    margin-top: 10em;
+}

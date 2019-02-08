@@ -1,0 +1,131 @@
+html { 
+    overflow-x: hidden; 
+}
+
+body {
+    font-family: sans-serif;
+    /*background-image: url(../images/IMG_20170708_173933.jpg);
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    /* Full height */
+    /*height: 100%;*/
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1 {
+    border-style: solid;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: gainsboro;
+    margin-top: 2em;
+}
+
+#intro {
+    margin: 2em;
+    margin-top: 4em;
+}
+
+#middle {
+    margin: 2em;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    column-gap: 6em;
+    row-gap: 0.5em;
+}
+
+#bottom {
+    margin: 2em;
+    margin-top: -8em;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    column-gap: 6em;
+}
+
+footer {
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 2em;
+  }
+
+  .converter {
+      margin: 2em;
+  }
+
+  #profilepic {
+      grid-column-start: 4;
+      grid-row-start: 1;
+  }
+
+  #fact {
+      grid-column-start: 1;
+      grid-row-start: 3;
+  }
+
+  #links {
+      grid-column-start: 1;
+      grid-row-start: 1;
+  }
+
+  .tg {
+      grid-column-start: 2;
+      grid-row-start: 1;
+  }
+
+  #japanpic {
+      grid-column-start: 3;
+      grid-row-start: 1;
+  }
+
+  #video {
+      grid-column-start: 1;
+      grid-row-start: 4;
+      margin-top: -3em;
+  }
+
+  .foot {
+      margin-top: 2em;
+  }
+  #myname{
+    color: aqua;
+    background: coral;
+}
