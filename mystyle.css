@@ -110,3 +110,8 @@ aside{
 .foot {
     margin-top: 10em;
 }
+#quote{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}

@@ -129,3 +129,8 @@ input[type=text], select, textarea {
     color: aqua;
     background: coral;
 }
+#quote{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}

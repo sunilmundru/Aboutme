@@ -1,115 +1,107 @@
-
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="author" content="Brianne Bender">
-    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-            crossorigin="anonymous">
-    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-            crossorigin="anonymous">
-    
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    
-        <link href="func.css" rel="stylesheet">
-    
-        <title>Area of Triangle</title>
-    </head>
-    
-    
-    <body>
-        <main>
-    
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="index.html"> Sunil Mundru</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="./index.html">Home
-                                <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="./contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="area.html">Area of Triangle</a>
-                        </li>
-                    </ul>
-                   
-                </div>
-            </nav>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="SunilMundru">
 
-            <header>
-                <h1 class="important" id="myname">
-                    Calculating the area of Triangle
-                </h1>
-            </header>
-    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+    <link href="func.css" rel="stylesheet">
+
+    <title>Area of Triangle</title>
+</head>
+
+
+<body>
+    <main>
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html"> Sunil Mundru</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./index.html">Home
+                            <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./area.html">Area of Triangle</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./test/test.html">qunit Test</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <header>
+            <h1 class="important" id="myname">
+                Calculating the area of Triangle
+            </h1>
+        </header>
+
         </section>
-        <!-- <div class="container" style="background-color: aqua">
-          <form action="area.html">
-            <label for="fname">Base</label>
-            <input type="text" id="Base" name="Base" placeholder="Enter the Base of the Triangle">
+        <div class="container">
+            Base :
+            <input type="text" id="Base" , value="" />
+            <BR>
+            Height :
+            <input type="text" id="height" , value="" />
+            <BR>
 
-            <label for="fname">Height</label>
-            <input type="text" id="Height" name="Height" placeholder="Enter the Height of the Triangle">
-        
-            
-            <input type="submit"  id="btnArea" onclick="Area()"  value="calculate">
-        
-          </form>
-          <div id="divresult"></div>
-        </div> -->
-
-<div class="container">
-        Base :
-    <input type="text" id="Base" />
-    <BR>
-    Height: :
-    <input type="text" id="Height" />
-    <BR>
-
-    <input type="button" id="btnArea" onclick="Area();" value="Compute" />
-    <div id="divresult"></div>
-</div>
+            <input type="button" id="btnArea" onclick="Area();" value="Compute" />
+            <div id="divresult"></div>
+            <button id="clicker" class="btn btn-primary">Click me!</button>
+            <button id="wiper" class="btn btn-danger">Clear Storage</button>
+            <h2 id="quote">
+                MouseOver for a random quote!
+            </h2>
+        </div>
 
     </main>
-  <br>
-  <footer class="foot">
+    <br>
+    <footer class="foot">
         &copy; Sunil Mundru
-  </footer>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-    
-    </body>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
 
 
 
-    <script>
-        function Area() {
-            var Base = document.getElementById("Base");
-            var Height = document.getElementById("Height");
-            var basevalue = Base.value;
-            var heightvalue = Height.value;
-            var result = "Area is : "+(basevalue * heightvalue) / 2;
-            var divresult = document.getElementById("divresult");
-            divresult.innerHTML = result;
-        }
-    </script>
-    
-    </html>
+<script src="area.js"></script>
+
+<!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
+</body>
+
+</html>
