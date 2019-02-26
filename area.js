@@ -3,7 +3,14 @@ function Area() {
     var Height = document.getElementById("height");
     var basevalue = Base.value;
     var heightvalue = Height.value;
-    var result = "Area is : " + (basevalue * heightvalue) / 2;
+    var result;
+    if(basevalue < 0 || heightvalue < 0){
+       result =  "enter valid number"
+    }
+    else{
+result = "Area is : " + (basevalue * heightvalue) / 2;
+    }
+      
     var divresult = document.getElementById("divresult");
     divresult.innerHTML = result;
 }
